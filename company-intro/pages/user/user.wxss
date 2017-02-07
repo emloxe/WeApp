@@ -1,0 +1,71 @@
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+
+.login{
+    margin-top: 60rpx;
+    font-size: 32rpx;
+    color: #999;
+    text-align: center;
+}
+
+.login button{
+    display: inline-block;
+    margin: 40rpx;
+    width: 180rpx;
+    height: 86rpx;
+    line-height: 86rpx;
+    
+}
+.btn-out{
+  margin: 40rpx;
+}
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40rpx;
+}
+
+.main .userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 10rpx;
+}
+
+
+.employee-info{
+  width: 400rpx;
+}
+.employee-info .userinfo-nickname{
+  line-height: 48rpx;
+  font-size: 30rpx;
+}
+.employee-info text{
+  display: block;
+}
+
+
+
+

@@ -1,0 +1,33 @@
+<view class="top">
+    <view class="logo">
+      <image src="{{userInfo.avatarUrl}}" style="width: 120rpx; height: 120rpx;"  ></image>
+    </view>
+    <view class="info">
+      <text class="info-name">{{userName}}</text>
+      <text>{{userId}}</text>
+    </view>
+</view>
+
+<view class="main">
+  
+  <view bindtap="toCheckin" class="session">
+    <image class="icon" src="../../images/icon-qd.png"></image>
+    <text>签到</text>
+  </view>
+  <view bindtap="toSchedule" class="session">
+    <image class="icon"  src="../../images/icon-yd.png"></image>
+    <text>预定</text>
+  </view>
+  <view bindtap="toVideo" class="session">
+      <image class="icon" src="../../images/icon-sp.png"></image>
+    <text bind>视频</text>
+  </view>
+  <view bindtap="toAudeo" class="session">
+    <image class="icon" src="../../images/icon-yp.png"></image>
+    <text>音频</text>
+  </view>
+  <view bindtap="toArticle" class="session">
+    <image class="icon" src="../../images/icon-wz.png"></image>
+    <text>文章</text>
+  </view>
+</view>

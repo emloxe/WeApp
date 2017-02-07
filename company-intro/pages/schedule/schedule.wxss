@@ -1,0 +1,29 @@
+.session{
+    margin-bottom: 50rpx;
+}
+
+.session > text{
+    display: block;
+    padding: 5rpx 20rpx;
+}
+
+
+.session .text{
+    font-size: 26rpx;
+    line-height: 36rpx;
+}
+
+button{
+    margin-left: 460rpx;
+    font-size: 30rpx;
+    height: 86rpx;
+    width: 240rpx;
+    line-height: 86rpx;
+}
+
+
+
+
+
+
+

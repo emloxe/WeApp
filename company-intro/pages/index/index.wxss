@@ -1,0 +1,58 @@
+.header{
+    height: 0;
+}
+.top{
+    overflow: hidden;
+    width: 750rpx;
+    display: flex;
+    justify-content:left;
+    align-items: center;  
+    height: 160rpx;
+    background-color: #1aad19;
+    padding-bottom: 20rpx;
+}
+
+.top .logo{
+    width: 120rpx;
+    height: 120rpx;
+    margin: 0 50rpx 0 100rpx;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.top .info{
+   width: 400rpx;
+   text-align: left;
+  
+}
+.top .info text{
+    color: #fff;
+}
+
+.top .info text{
+    display: block;
+}
+
+
+.session{
+    background:  url('../../images/icon-r.png') no-repeat  600rpx 32rpx;
+    color: #777;
+    height: 160rpx;
+    line-height: 160rpx;
+    width: 750rpx;
+    font-size: 50rpx;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.icon{
+    vertical-align: middle;
+    width: 66rpx;
+    height: 66rpx;
+    margin: -10rpx 40rpx 0 100rpx;
+}
+
+
+.session text{
+    margin: 0 100rpx 0 20rpx
+}

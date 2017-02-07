@@ -1,0 +1,32 @@
+<view class="main">
+    <image src="{{imgUrl}}" style="width:750rpx;"></image>
+    <view class="content">
+        <text class="title">{{title}}</text>
+        <text class="lecturer">讲师：{{lecturer}}</text>
+        <text class="stime">时间：{{stime}}</text>
+        <text class="ntime">时长：{{ntime}}分钟</text>
+        <text class="place">地点：{{place}}</text>
+        <text class="choose">选定：{{people}}/{{allSite}}</text>
+        <text class="text">简介：{{text}}</text>
+    </view>
+    <view wx:if="{{userId}}">
+    <view wx:if="{{!join}}">
+        <view class="btn-warp ">
+            <button bindtap="join" class="btn" type="primary" > 立即参加 </button>
+        </view>
+    </view>
+    <view wx:if="{{join}}">
+        <view class="btn-warp ">
+            <button bindtap="quit" class="btn" type="default" > 退出 </button>
+        </view>
+    </view>
+    </view>
+    <view wx:if="{{!userId}}">
+        <view class="btn-warp ">
+            <button bindtap="join" class="btn" type="primary" > 立即参加 </button>
+        </view>
+    </view>
+    
+    
+</view>
+

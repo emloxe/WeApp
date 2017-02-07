@@ -1,0 +1,26 @@
+<view class="main">
+
+    <view class="session" wx:for="{{list}}" wx:for-item="item">                
+        <image src="{{item.imgUrl}}" style="width:750rpx;"></image>
+        <text class="title">{{item.title}}</text>
+        <text class="text">{{item.text}}</text>
+        <text>选定：{{item.people}}/{{item.allSite}}</text>
+       
+            <button bindtap="toDetailSc" class="btn" type="primary" data-lectureid="{{item.lectureId}}">去看看</button>
+        
+    </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+
+<view class="main">
+    <view class="session" wx:for="{{list}}" wx:for-item="item">
+        <image style="width: 750rpx; background-color: #eee;" src="{{item.url}}"></image>
+        <text class="title">{{item.title}}</text>
+        <text class="text">{{item.text}}</text>
+    </view>
+    <text class="copyright">©上海上业信息科技股份有限公司</text>
+</view>

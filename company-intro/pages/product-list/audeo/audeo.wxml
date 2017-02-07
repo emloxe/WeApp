@@ -1,0 +1,10 @@
+
+<view class="main">
+    <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>     
+    <view class="session" wx:for="{{list}}" wx:for-item="item" wx:for-index="idx">
+        <view bindtap="play" data-id="{{item.id}}" class="l">音频：{{idx+1}}</view>
+    </view>
+    <text class="info">简介：{{text}}</text>
+    <text class="copyright">©上海上业信息科技股份有限公司</text>
+</view>
+

@@ -1,0 +1,22 @@
+
+button{
+    margin: 20rpx;
+    height: 66rpx;
+    line-height: 66rpx;
+
+    
+}
+
+.top{
+    text-align: right;
+}
+.top button{
+    margin: 20rpx;
+    height: 86rpx;
+    line-height: 86rpx;
+}
+.info text{
+    display: block;
+    margin-left: 30rpx;
+}
+

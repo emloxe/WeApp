@@ -1,0 +1,41 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/schedule/schedule",
+    "pages/checkin/checkin",       
+    "pages/user/user",  
+    "pages/login/login",
+    "pages/logout/logout",    
+    "pages/notice/notice",
+    "pages/product-list/audeo/audeo",
+    "pages/product-list/video/video",
+    "pages/product-list/article/article",
+    "pages/product-list/list/list",
+    "pages/details/schedule/schedule",
+      
+    "pages/logs/logs"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1aad19",
+    "navigationBarTitleText": "上业科技",
+    "navigationBarTextStyle":"#1aad19"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },{
+      "pagePath": "pages/notice/notice",
+      "text": "公告"
+    },
+     {
+      "pagePath": "pages/user/user",
+      "text": "个人中心"
+    }],
+    "selectedColor": "#1aad19"
+  }
+  
+}

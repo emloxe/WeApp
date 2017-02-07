@@ -1,0 +1,7 @@
+<view class="main">
+    <view class="session" wx:for="{{list}}" wx:for-item="item">
+        <text class="time">{{item.time}}</text>
+        <text class="title">{{item.title}}</text>
+        <text class="text">{{item.text}}</text>
+    </view>
+</view>

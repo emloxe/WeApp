@@ -1,0 +1,33 @@
+.content{
+    padding: 20rpx;
+}
+.content text{
+    display: block;
+}
+
+.title {
+    font-size: 40rpx;
+    margin-bottom: 10rpx;
+}
+.lecturer, .stime, .ntime, .place, .choose{
+    font-size: 30rpx;
+    line-height: 50rpx;
+}
+.text{
+    color: #555;
+    font-size: 30rpx;
+}
+.btn-warp{
+    padding: 30rpx;
+}
+
+
+
+
+
+
+
+
+
+
+

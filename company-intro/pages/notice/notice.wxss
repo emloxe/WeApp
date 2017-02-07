@@ -1,0 +1,31 @@
+
+.main{
+    padding: 5rpx 0;
+}
+
+.session:last-child{
+    border-bottom: 1px solid #fff !important;
+}
+
+.session{
+    border-bottom: 1px solid #ddd;
+    padding: 20rpx 30rpx;
+}
+
+.session text{
+    display: block;
+}
+.time{
+    line-height: 30rpx;
+    font-size: 22rpx; 
+    color: #aaa;
+}
+.title{
+    font-size: 36rpx;
+    line-height: 80rpx;
+}
+.text{
+    font-size: 26rpx;
+    line-height: 46rpx;
+    color: #999;
+}

@@ -1,0 +1,21 @@
+
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+
+
+  <view class="section">
+    <view class="section__title">姓名</view>
+    <input name="input" placeholder="请输入您的姓名" value="{{userName}}" bindinput="getName"/>
+  </view>
+  <view class="section">
+    <view class="section__title">员工ID</view>
+    <input name="input" disabled="true" value="{{userId}}"  />
+  </view>
+  <view class="section">
+    <button bindtap="login" class="btn" type="primary"  > 确定 </button>
+    <button bindtap="toback" class="btn" type="primary" plain="ture" > 取消 </button>
+  </view>
+</view>

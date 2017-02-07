@@ -1,0 +1,6 @@
+<view class="container">
+    <text>您已经退出登录</text>
+    <button bindtap="logout" class="btn" type="primary" >确定</button>
+</view>
+
+

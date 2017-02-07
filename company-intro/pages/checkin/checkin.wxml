@@ -1,0 +1,16 @@
+
+        <view class="main">
+            <view class="top">
+                <button bindtap="checkin" class="btn" type="primary"> 签到 </button>
+            </view>
+            <view class="info">
+                <text wx:for="{{messageList}}" wx:for-index="idx" wx:for-item="item" >{{idx+1}}. {{item.time}}</text>
+            </view>
+        </view>
+
+    
+
+
+
+
+

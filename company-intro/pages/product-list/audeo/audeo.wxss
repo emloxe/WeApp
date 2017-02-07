@@ -1,0 +1,43 @@
+.main{
+    padding: 20rpx 0;
+    text-align: center;
+}
+
+.session{
+}
+
+audio{
+    margin: 20rpx 0;
+}
+
+
+.copyright{
+    margin:50rpx 0 20rpx;
+    display: block;
+    font-size: 26rpx;
+    text-align: center;
+    color: #aaa;
+}
+
+
+
+.info{
+    margin: 20rpx 0;
+    text-align: left;
+    padding: 0 70rpx 50rpx;
+    display: block;
+    font-size: 26rpx;
+    line-height: 34rpx;
+}
+
+.l{
+    margin: auto;
+    height: 80rpx;
+    line-height: 80rpx;
+    width: 500rpx;
+    border: 1px solid #ddd;
+    margin-top: -1px;
+}
+
+
+

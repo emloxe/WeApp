@@ -1,0 +1,32 @@
+
+
+.session{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 50rpx;
+    margin-bottom: 30rpx;
+
+}
+
+.h4{
+    display: block;
+    line-height: 100rpx;
+    font-size: 40rpx;
+    padding-left: 30rpx;
+}
+.video{
+    text-align: center;
+}
+.summary{
+    font-size: 30rpx;
+    display: block;
+    line-height: 40rpx;
+    margin: 20rpx 30rpx;
+}
+
+.copyright{
+    display: block;
+    font-size: 26rpx;
+    text-align: center;
+    margin-bottom: 10rpx;
+    color: #aaa;
+}
